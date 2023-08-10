@@ -1,3 +1,23 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.alert-container {}
+
+.callout-container {
+    /* 100 vh means entire height of the browser window.
+    That will change depending on what height our browser is set to. its will take 100% of the browser window height.*/
+    height: 100vh;
+    /* https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url(../images/whiskey-background.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.monthly-favorites-container {}
