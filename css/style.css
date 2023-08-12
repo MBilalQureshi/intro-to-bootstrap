@@ -27,6 +27,25 @@ body{
 
 .monthly-favorites-container {}
 
+
+/* Block deviders */
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    
+}
+
+.block-divider--orange{
+    background-color: #f05f40;
+}
+
+.block-divider--short{
+    width:35px;
+}
+
+
+
 /* Jumbotron */
 .jumbotron{
     background-color: transparent;
