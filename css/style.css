@@ -4,6 +4,14 @@ body{
 
 .alert-container {}
 
+.site-wide-alert{
+   border-radius: 0;
+   margin-bottom: 0;
+   padding: 5px 15px;
+   background-color: #eec802;
+   border-color: #eec802;
+}
+
 .callout-container {
     /* 100 vh means entire height of the browser window.
     That will change depending on what height our browser is set to. its will take 100% of the browser window height.*/
