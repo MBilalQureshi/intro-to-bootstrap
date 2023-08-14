@@ -2,6 +2,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper{}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
 .alert-container {}
 
 .site-wide-alert{
@@ -45,6 +51,16 @@ body{
 
 .features-container {}
 
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
 .monthly-favorites-container {}
 
 
@@ -53,6 +69,7 @@ body{
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
     
 }
 
@@ -63,6 +80,13 @@ body{
 .block-divider--short{
     width:35px;
 }
+
+/* Content container */
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 
 /* Navbar */
 
